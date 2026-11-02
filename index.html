@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Besitos Escondidos | Snacks de Queso y Bocadillo</title>
+  <meta name="description"
+    content="Besitos Escondidos: snacks fritos artesanales rellenos de queso y bocadillo de guayaba. Tan dulce como un beso desde el primer mordisco.">
+
+  <!--
+    ============================================================
+    RUTAS DE RECURSOS LOCALES
+    ============================================================
+    Este proyecto está configurado para ejecutarse 100% OFFLINE.
+    - Estilos: ./css/styles.css
+    - JavaScript: ./js/script.js
+    - Imágenes: ./assets/images/
+    - Videos: ./assets/videos/
+    ============================================================
+  -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- ============================================================ -->
+  <!-- BARRA DE NAVEGACIÓN STICKY                                    -->
+  <!-- ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#inicio" class="navbar__brand" aria-label="Ir al inicio de Besitos Escondidos">
+        <!-- Logo local oficial de la marca -->
+        <img src="./assets/images/logo.png" alt="Logo Besitos Escondidos" class="navbar__logo-img">
+        <span class="navbar__brand-text">Besitos <em>Escondidos</em></span>
+      </a>
+
+      <!-- Menú de navegación principal -->
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#inicio" class="navbar__link is-active">Inicio</a>
+        <a href="./nosotros.html#nosotros" class="navbar__link">Nosotros</a>
+        <a href="./producto.html#producto" class="navbar__link">Producto</a>
+        <a href="./proyecto.html#proyecto" class="navbar__link">Proyecto</a>
+        <a href="./contacto.html#contacto" class="navbar__link">Contacto</a>
+      </nav>
+
+      <!-- Botón de menú móvil (Hamburguesa) -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- PARTE 1 — INICIO (HERO SECTION)                               -->
+  <!-- ============================================================ -->
+  <section id="inicio" class="hero">
+    <!-- Formas decorativas SVG integradas en código (Offline) -->
+    <div class="hero__decor" aria-hidden="true">
+      <!-- Corazón decorativo -->
+      <svg class="hero__shape hero__shape--heart1" viewBox="0 0 24 24">
+        <path
+          d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+      </svg>
+      <!-- Labios decorativos -->
+      <svg class="hero__shape hero__shape--lips" viewBox="0 0 32 18">
+        <path
+          d="M16 2.5C11.5 2.5 7.5 5.5 2 5.5c2 4 6 7.5 14 7.5s12-3.5 14-7.5c-5.5 0-9.5-3-14-3zm0 8.5c-4.5 0-7.5-1.5-9.5-2.5 2.5-1 5-1.5 9.5-1.5s7 0.5 9.5 1.5c-2 1-5 2.5-9.5 2.5z" />
+      </svg>
+      <!-- Segundo corazón decorativo -->
+      <svg class="hero__shape hero__shape--heart2" viewBox="0 0 24 24">
+        <path
+          d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+      </svg>
+      <!-- Estrellas doradas -->
+      <svg class="hero__shape hero__shape--star1" viewBox="0 0 24 24">
+        <path d="M12 2l2.4 7.2h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z" />
+      </svg>
+      <svg class="hero__shape hero__shape--star2" viewBox="0 0 24 24">
+        <path d="M12 2l2.4 7.2h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z" />
+      </svg>
+      <!-- Puntos dorados y rojizos -->
+      <span class="hero__shape--dot hero__shape--dot1"></span>
+      <span class="hero__shape--dot hero__shape--dot2"></span>
+      <span class="hero__shape--dot hero__shape--dot3"></span>
+    </div>
+
+    <div class="container">
+      <div class="hero__inner">
+        <!-- Contenido textual del Hero -->
+        <div class="hero__content">
+          <div class="hero__brand-tag">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+            <span>Snack frito artesanal</span>
+          </div>
+
+          <h1 class="hero__title">
+            Besitos
+            <span>Escondidos</span>
+          </h1>
+
+          <p class="hero__slogan">"Tan dulce como un beso desde el primer mordisco."</p>
+
+          <p class="hero__intro">
+            Bienvenido a Besitos Escondidos, una experiencia donde el dulce y el salado se encuentran en un solo bocado.
+          </p>
+
+          <div class="hero__actions">
+            <a href="./producto.html#producto" class="btn btn--primary">Conoce nuestro producto</a>
+            <a href="./nosotros.html#nosotros" class="btn btn--ghost">Conócenos</a>
+          </div>
+        </div>
+
+        <!-- Imagen protagonista del producto -->
+        <div class="hero__media">
+          <div class="hero__frame">
+            <!--
+              Fotografía principal del snack frito dorado.
+              Ruta local: ./assets/images/producto-1.jpg
+            -->
+            <img src="./img/img 7.jpeg" alt="Snacks de queso y bocadillo Besitos Escondidos crujientes"
+              class="hero__img">
+          </div>
+
+          <!-- Badge destacado de sabor -->
+          <div class="hero__badge-flavor">
+            <div class="hero__badge-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 14.5h-2v-2h2zm0-4h-2V7h2z" />
+              </svg>
+            </div>
+            <div>
+              <p class="hero__badge-title">Fusión Única</p>
+              <p class="hero__badge-desc">Queso & Bocadillo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                         -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <img src="./assets/images/logo.png" alt="Logo Besitos Escondidos" class="footer__logo">
+      <h3 class="footer__brand">Besitos Escondidos</h3>
+      <p class="footer__slogan">"Tan dulce como un beso desde el primer mordisco."</p>
+      <p class="footer__badge">Proyecto Pedagógico Productivo</p>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript vanilla local -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

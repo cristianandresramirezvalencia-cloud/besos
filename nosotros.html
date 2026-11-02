@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Besitos Escondidos | Snacks de Queso y Bocadillo</title>
+  <meta name="description"
+    content="Besitos Escondidos: snacks fritos artesanales rellenos de queso y bocadillo de guayaba. Tan dulce como un beso desde el primer mordisco.">
+
+  <!--
+    ============================================================
+    RUTAS DE RECURSOS LOCALES
+    ============================================================
+    Este proyecto está configurado para ejecutarse 100% OFFLINE.
+    - Estilos: ./css/styles.css
+    - JavaScript: ./js/script.js
+    - Imágenes: ./assets/images/
+    - Videos: ./assets/videos/
+    ============================================================
+  -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- ============================================================ -->
+  <!-- BARRA DE NAVEGACIÓN STICKY                                    -->
+  <!-- ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="./index.html#inicio" class="navbar__brand" aria-label="Ir al inicio de Besitos Escondidos">
+        <!-- Logo local oficial de la marca -->
+        <img src="./assets/images/logo.png" alt="Logo Besitos Escondidos" class="navbar__logo-img">
+        <span class="navbar__brand-text">Besitos <em>Escondidos</em></span>
+      </a>
+
+      <!-- Menú de navegación principal -->
+      <nav class="navbar__nav" id="navMenu">
+        <a href="./index.html#inicio" class="navbar__link">Inicio</a>
+        <a href="./nosotros.html#nosotros" class="navbar__link is-active">Nosotros</a>
+        <a href="./producto.html#producto" class="navbar__link">Producto</a>
+        <a href="./proyecto.html#proyecto" class="navbar__link">Proyecto</a>
+        <a href="./contacto.html#contacto" class="navbar__link">Contacto</a>
+      </nav>
+
+      <!-- Botón de menú móvil (Hamburguesa) -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+   <!-- ============================================================ -->
+  <!-- PARTE 2 — NOSOTROS                                             -->
+  <!-- ============================================================ -->
+  <section id="nosotros" class="section section--cream">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <p class="eyebrow">Identidad Empresarial</p>
+        <h2 class="section-title">Nosotros</h2>
+        <p class="section-lead">Conoce el propósito, la dirección y los principios que guían la elaboración de cada uno
+          de nuestro producto.</p>
+      </div>
+
+      <!-- A. Objetivo General -->
+      <article class="card card--wide reveal">
+        <h3 class="card__title">Objetivo general</h3>
+        <p class="card__text">
+          Establecer a Besitos Escondidos como una empresa innovadora y de calidad en el mercado, especializada en la
+          elaboración de snacks que fusione el increíble sabor dulce con lo exquisito del salado, expandiéndose por la
+          región mediante la comunicación publicitaria y, así, permitir el crecimiento y desarrollo de una nueva empresa
+          no solo local sino en la región Fresnense.
+        </p>
+      </article>
+
+      <!-- B. Objetivos Específicos -->
+      <h3 class="section-subtitle section-subtitle--center">Objetivos específicos</h3>
+      <div class="grid grid--3">
+        <div class="card card--numbered reveal">
+          <span class="card__number">01</span>
+          <p class="card__text">
+            Crear la línea de snacks que combine el sabor del queso y bocadillo experimentando con sabores y texturas,
+            para ofrecer al consumidor una experiencia sensorial única.
+          </p>
+        </div>
+
+        <div class="card card--numbered reveal">
+          <span class="card__number">02</span>
+          <p class="card__text">
+           Diseñar una campaña publicitaria atractiva utilizando las redes sociales para aumentar el reconocimiento de
+            la marca y generar expectativa en torno a los productos.
+          </p>
+        </div>
+
+        <div class="card card--numbered reveal">
+          <span class="card__number">03</span>
+          <p class="card__text">
+            Participar en ferias y eventos gastronómicos, para lograr mayor producción y popularidad del producto, siendo una forma de contribución al crecimiento y desarrollo de la empresa.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- C & D. Misión y Visión -->
+      <div class="grid grid--2 grid--mv">
+        <article class="card card--mission-vision reveal">
+          <div class="card__header-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="card__title">Misión</h3>
+          <p class="card__text">
+            Ofrecer y comercializar un producto práctico y versátil como lo son los snacks; elaborados con ingredientes
+            frescos y muy deleitosos como lo son el queso y el bocadillo, resaltando la combinación de lo salado y lo
+            dulce, generando una increíble fusión que hará que su sabor impregne y deleite en cada paladar desde el
+            primer bocado buscando brindar momentos de placer y bienestar a través de productos innovadores, prácticos y
+            auténticos, que acompañen las experiencias cotidianas de los consumidores.
+          </p>
+        </article>
+
+        <article class="card card--mission-vision card--vision reveal">
+          <div class="card__header-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <h3 class="card__title">Visión</h3>
+          <p class="card__text">
+            Lograr que la empresa sea reconocida por todos los Fresnense y que de esta manera encuentren en la marca
+            unos snacks que no solo puedan satisfacer el paladar del cliente, sino lo reconozcan como un producto
+            versátil listo para consumir en cualquier momento del día. Conseguir que los consumidores prefieran este
+            producto como el más indicado y lo describan como un producto innovador, siendo el mejor snack en el
+            mercado.
+          </p>
+        </article>
+      </div>
+
+      <!-- E. Valores Corporativos -->
+      <h3 class="section-subtitle">Valores corporativos</h3>
+      <div class="grid grid--4">
+        <div class="card card--value reveal">
+          <div class="card__value-icon">
+            <svg viewBox="0 0 24 24">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <h4 class="card__title card__title--sm">Calidad</h4>
+          <p class="card__text">Compromiso con el uso de materias primas seleccionadas para asegurar la consistencia y
+            seguridad del producto final.</p>
+        </div>
+
+        <div class="card card--value reveal">
+          <div class="card__value-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+          </div>
+          <h4 class="card__title card__title--sm">Innovación</h4>
+          <p class="card__text">Desarrollo de productos con combinaciones de sabores que distinguen la oferta en el
+            mercado.</p>
+        </div>
+
+        <div class="card card--value reveal">
+          <div class="card__value-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h4 class="card__title card__title--sm">Responsabilidad</h4>
+          <p class="card__text">Mantenimiento de procesos productivos transparentes y éticos, respetando las normativas
+            básicas higiénicas.</p>
+        </div>
+
+        <div class="card card--value reveal">
+          <div class="card__value-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+            </svg>
+          </div>
+          <h4 class="card__title card__title--sm">Dedicación</h4>
+          <p class="card__text">Aplicación de un enfoque meticuloso en la producción para alcanzar la satisfacción del
+            cliente.</p>
+        </div>
+      </div>
+
+      <!-- F. Storytelling -->
+      <div class="storytelling reveal">
+        <div class="storytelling__text">
+          <p class="eyebrow eyebrow--no-lines">Tradición & Experiencia</p>
+          <h3 class="storytelling__title">La historia detrás de cada Besito</h3>
+          <p class="card__text">
+            Besitos Escondidos nace de la pasión por crear una experiencia memorable: ese secreto delicioso que se
+            devela con el crujido del primer bocado, fundiendo la calidez del queso derretido con el dulzor tradicional
+            del bocadillo de guayaba.
+          </p>
+          <p class="storytelling__quote">
+            "Un pequeño secreto delicioso que descubres al dar el primer mordisco."
+          </p>
+        </div>
+
+        <!-- Reproductor de video local -->
+        <div class="storytelling__video-wrapper">
+          <!--
+            Video local de Storytelling:
+            Ruta local: ./assets/videos/storytelling.mp4
+            Portada local: ./assets/images/storytelling-cover.jpg
+            Si el archivo de video no está disponible, se muestra el aviso preparado.
+          -->
+          <video class="storytelling__video" id="storyVideo" controls poster="./assets/video.mp4">
+            <source src="./assets/video.mp4" type="video/mp4">
+          </video>
+          <div class="video-placeholder" id="videoPlaceholder">
+            <div class="video-placeholder__icon">
+              <svg viewBox="0 0 24 24">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+            </div>
+            <p class="video-placeholder__title">Próximamente: nuestra historia en video</p>
+            <p class="video-placeholder__subtitle">Archivo preparado: ./assets/videos/storytelling.mp4</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                         -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <img src="./assets/images/logo.png" alt="Logo Besitos Escondidos" class="footer__logo">
+      <h3 class="footer__brand">Besitos Escondidos</h3>
+      <p class="footer__slogan">"Tan dulce como un beso desde el primer mordisco."</p>
+      <p class="footer__badge">Proyecto Pedagógico Productivo</p>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript vanilla local -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
